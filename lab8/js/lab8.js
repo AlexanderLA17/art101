@@ -1,9 +1,5 @@
 // Alexander
 
-<head>
-        <title>Lab 8</title>
-        <script src="js/lab.js" defer></script>
-    </head>
 
 function isEven(x){
   return (x % 2 == 0);
@@ -24,3 +20,4 @@ var result = array.map(function(x){
 })
 
 console.log("Squareroot of array:", result);
+

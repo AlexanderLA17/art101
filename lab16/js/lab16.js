@@ -1,12 +1,8 @@
-/**
- * Lab 16: JSON and APIs (XKCD Comic!)
- * Author: Your Name
- * Date: 2025-06-07
- */
+//Had to use cors anywhere to get the API to work
 
 // Using jQuery's AJAX method to fetch XKCD JSON data
 $.ajax({
-  url: "https://xkcd.com/info.0.json", // Latest comic
+  url: "https://cors-anywhere.herokuapp.com/https://xkcd.com/info.0.json", // Latest comic
   type: "GET",
   dataType: "json",
   success: function(comicObj) {
